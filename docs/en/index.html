@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134670474-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-134670474-1');
+</script>
+
   <title>Smuggling of Migrants &amp; Human Trafficking: A field guide for frontline officers</title>
   <meta charset="utf-8">
   <link rel="manifest" href="manifest.webmanifest">
@@ -110,7 +120,6 @@
     </div>
     <script>
         var url = new URL("manifest.json", window.location.href);
-        var cacheUrl = new URL("appcache.html", window.location.href);	
         var upLink = {url: new URL("https://unodc.github.io/guide05"), label: "Back", ariaLabel: "Go back"};
         var serviceWorkerUrl = new URL("https://aferditamuriqi.github.io/viewer/sw.js", window.location.href);
           R2Reader.load({
@@ -120,7 +129,6 @@
             eventTarget: null,
             serviceWorkerUrl: serviceWorkerUrl,
             upLinkUrl: upLink,
-            bookCacheUrl: cacheUrl,
           });
     </script>
     <script src="https://aferditamuriqi.github.io/viewer/materialize.min.js"></script>

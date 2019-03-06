@@ -1,7 +1,21 @@
 {
-  "name": "Guide 5",
+  "short_name": "Guide 5",
+  "name": "Countering Terrorism & Foreign Terrorist Fighters: A field guide for border frontline officers",
+  "icons": [
+    {
+      "src": "https://fieldguides.github.io/guide05/icons/app-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://fieldguides.github.io/guide05/icons/app-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
   "start_url": "https://fieldguides.github.io/guide05/en/index.html",
   "background_color": "#ffb74d",
   "display": "standalone",
+  "theme_color": "#ffb74d",
   "publication": "manifest.json"
 }
